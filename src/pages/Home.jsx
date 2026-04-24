@@ -15,7 +15,7 @@ const Home = () => {
     <div className="min-h-screen bg-[#f8fafc]">
       {/* Hero Section */}
       <div className="bg-gradient-to-r from-indigo-600 via-purple-600 to-blue-500 text-white">
-        <div className="max-w-7xl mx-auto px-5 sm:px-8 lg:px-12 py-16 md:py-24">
+        <div className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-12 py-16 md:py-14">
           <p className="uppercase tracking-[4px] text-sm font-semibold opacity-90 mb-3">
             Submited by: Sachin Sharma
           </p>
@@ -32,7 +32,7 @@ const Home = () => {
             categories={categories}
           />
       </div>
-      
+
     </div>
   );
 };
